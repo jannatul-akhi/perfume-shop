@@ -161,7 +161,7 @@ const TopFooterComponent = () => {
                 <span>
                   <img
                     className=""
-                    src="./images/footer/footer1.png"
+                    src="/images/Footer/footer1.png"
                     alt="img"
                   />
                 </span>
@@ -173,7 +173,7 @@ const TopFooterComponent = () => {
                 <span>
                   <img
                     className=""
-                    src="./images/footer/footer2.png"
+                    src="/images/Footer/footer2.png"
                     alt="img"
                   />
                 </span>
@@ -215,8 +215,16 @@ const TopFooterComponent = () => {
               className="h-6"
             />
             <img src="/images/Footer/visa.png" alt="Discover" className="h-6" />
-            <img src="/images/Footer/mastercard.png" alt="PayPal" className="h-6" />
-            <img src="/images/Footer/mastercard.png" alt="ShopPay" className="h-6" />
+            <img
+              src="/images/Footer/mastercard.png"
+              alt="PayPal"
+              className="h-6"
+            />
+            <img
+              src="/images/Footer/mastercard.png"
+              alt="ShopPay"
+              className="h-6"
+            />
             <img
               src="/images/Footer/mastercard.png"
               alt="Amazon Pay"
