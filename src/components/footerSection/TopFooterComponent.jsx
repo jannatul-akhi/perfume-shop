@@ -29,7 +29,7 @@ const TopFooterComponent = () => {
           </div>
         </div>
       </div>
-      <footer className="pt-10 bg-[#F5F6F6]">
+      <footer className="pt-10 text-black bg-[#F5F6F6]">
         {/* Top Section - Sign Up */}
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-28 border-b border-gray-300 pb-6">
@@ -49,7 +49,7 @@ const TopFooterComponent = () => {
                   placeholder="Your Mobile"
                   className="border-b border-black bg-transparent outline-none px-2 py-2 w-full md:w-auto"
                 />
-                <button className="bg-black text-white px-6 py-2 font-semibold uppercase">
+                <button className=" border-2 border-[#383838] text-black px-6 py-2 font-semibold uppercase">
                   Sign Up
                 </button>
               </div>
@@ -208,17 +208,17 @@ const TopFooterComponent = () => {
 
           {/* Payment Icons */}
           <div className="flex justify-center gap-3 mt-4">
-            <img src="./images/footer/lf1.png" alt="Visa" className="h-6" />
+            <img src="/images/Footer/visa.png" alt="Visa" className="h-6" />
             <img
-              src="./images/footer/lf1.png"
+              src="/images/Footer/visa.png"
               alt="Mastercard"
               className="h-6"
             />
-            <img src="./images/footer/lf1.png" alt="Discover" className="h-6" />
-            <img src="./images/footer/lf1.png" alt="PayPal" className="h-6" />
-            <img src="./images/footer/lf1.png" alt="ShopPay" className="h-6" />
+            <img src="/images/Footer/visa.png" alt="Discover" className="h-6" />
+            <img src="/images/Footer/mastercard.png" alt="PayPal" className="h-6" />
+            <img src="/images/Footer/mastercard.png" alt="ShopPay" className="h-6" />
             <img
-              src="./images/footer/lf1.png"
+              src="/images/Footer/mastercard.png"
               alt="Amazon Pay"
               className="h-6"
             />
