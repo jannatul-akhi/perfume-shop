@@ -11,10 +11,16 @@ import NewArrival from "../../components/newArrival/NewArrival";
 import Recommended from "../../components/recommended/Recommended";
 import BestSeller from "../../components/bestSeller/BestSeller";
 import ProductCategories from "../../components/productCard/ProductCard";
+import { Helmet } from "react-helmet-async";
+
 
 const LandingPage = () => {
   return (
     <>
+      <Helmet>
+        <title>Perfume Shop | Home</title>
+         <link rel="icon" href="/vector.ico" />
+      </Helmet>
       <Navbar></Navbar>
       <Offer></Offer>
       <Slider></Slider>
@@ -27,7 +33,6 @@ const LandingPage = () => {
       <Certificate></Certificate>
       <BestSeller></BestSeller>
       <Footer></Footer>
-
     </>
   );
 };
